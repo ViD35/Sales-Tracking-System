@@ -1,4 +1,4 @@
-package com.vid35.controldeventas
+package com.vid35.controldeventas.misc
 
 enum class ClienteSortType {
     NOMBRE,

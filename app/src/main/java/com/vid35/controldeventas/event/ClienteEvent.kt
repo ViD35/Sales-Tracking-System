@@ -1,6 +1,6 @@
 package com.vid35.controldeventas.event
 
-import com.vid35.controldeventas.ClienteSortType
+import com.vid35.controldeventas.misc.ClienteSortType
 import com.vid35.controldeventas.entity.Cliente
 
 sealed interface ClienteEvent {

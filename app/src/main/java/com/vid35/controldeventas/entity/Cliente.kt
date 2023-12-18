@@ -4,9 +4,9 @@ import androidx.room.ColumnInfo
 import androidx.room.Entity
 import androidx.room.PrimaryKey
 
-@Entity
+@Entity(tableName = "Clientes")
 data class Cliente (
-    @PrimaryKey val idCliente : Int,
+    @PrimaryKey (autoGenerate = true) val idCliente : Int = 0,
     @ColumnInfo(name = "nombre_cliente") val nombreCliente : String?,
     @ColumnInfo(name = "apellido_cliente") val apellidoCliente : String?,
     @ColumnInfo(name = "alias_cliente") val aliasCliente : String?,
