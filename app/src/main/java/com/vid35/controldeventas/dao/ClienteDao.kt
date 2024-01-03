@@ -28,7 +28,4 @@ interface ClienteDao {
     @Query("SELECT * FROM cliente ORDER BY telefono_cliente ASC")
     fun getClientesOrderedByTelefono(): Flow<List<Cliente>>
 
-    @Query("SELECT * FROM cliente ORDER BY direccion_cliente ASC")
-    fun getClientesOrderedByDireccion(): Flow<List<Cliente>>
-
 }

@@ -9,7 +9,6 @@ sealed interface ClienteEvent {
     data class SetApellidoCliente(val apellidoCliente: String): ClienteEvent
     data class SetAliasCliente(val aliasCliente: String): ClienteEvent
     data class SetTelefonoCliente(val telefonoCliente: String): ClienteEvent
-    data class SetDireccionCliente(val direccionCliente: String): ClienteEvent
     object ShowDialog: ClienteEvent
     object HideDialog: ClienteEvent
     data class SortClientes(val sortType: ClienteSortType): ClienteEvent

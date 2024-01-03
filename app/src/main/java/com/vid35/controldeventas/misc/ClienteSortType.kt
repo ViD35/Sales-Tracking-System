@@ -4,6 +4,5 @@ enum class ClienteSortType {
     NOMBRE,
     APELLIDO,
     ALIAS,
-    TELEFONO,
-    DIRECCION
+    TELEFONO
 }
